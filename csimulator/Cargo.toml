@@ -1,0 +1,9 @@
+[package]
+name = "csimulator"
+version = "0.1.0"
+edition = "2021"
+description = "BlockMat cycle-level simulator for cate-chip phase 1"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
