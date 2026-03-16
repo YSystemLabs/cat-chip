@@ -2,7 +2,7 @@
 name = "csimulator"
 version = "0.1.0"
 edition = "2021"
-description = "BlockMat cycle-level simulator for cate-chip phase 1"
+description = "BlockMat cycle-level simulator for cat-chip phase 1"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }

@@ -1,6 +1,6 @@
 # csimulator
 
-`csimulator` 是 cate-chip 项目第一阶段的 Rust 原型工程，对应主规格文档中的“可表示、可编译、可调度、可验证”闭环。
+`csimulator` 是 cat-chip 项目第一阶段的 Rust 原型工程，对应主规格文档中的“可表示、可编译、可调度、可验证”闭环。
 
 它实现了以下主链路：
 
