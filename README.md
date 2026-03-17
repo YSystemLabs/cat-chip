@@ -39,7 +39,7 @@
    解释为什么当前原型采用 Rust 周期级模拟器的实现路线，以及工程选型上的取舍。
 
 - [5-微架构接口规格-0v1.md](docs/5-%E5%BE%AE%E6%9E%B6%E6%9E%84%E6%8E%A5%E5%8F%A3%E8%A7%84%E6%A0%BC-0v1.md)
-   面向后续模块级软实现和 RTL 落地的前置规格。定义 11 个顶层模块（DispatchCtrl / BufferManager / InputReader / ParamLoader / AddrGen / BroadcastRouter / KernelArray / ReduceUnit / ZeroFillUnit / WriteBackUnit / LifecycleCtrl）的接口、命令编码（BatchTable / NodeTable / AuxInputTable）、仲裁规则（静态调度 + 全局停顿）与第一阶段时序约定。
+   面向后续模块级软实现和 RTL 落地的前置规格。定义 11 个顶层模块的接口、命令编码、仲裁规则（静态调度 + 全局停顿）与第一阶段时序约定。
 
 ## 项目目录
 
